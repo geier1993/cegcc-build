@@ -248,7 +248,7 @@ build_headers()
     echo ""
 
     mkdir -p $PREFIX/$TARGET/include
-    cp -R ${BASE_DIRECTORY}/win32api/include/* $PREFIX/$TARGET/include
+    cp -R ${BASE_DIRECTORY}/w32api/include/* $PREFIX/$TARGET/include
     cp -R ${BASE_DIRECTORY}/mingw/include/* $PREFIX/$TARGET/include
 
 }    
